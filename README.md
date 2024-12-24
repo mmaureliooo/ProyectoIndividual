@@ -18,3 +18,5 @@ El sitio está disponible en github
 
 ## Progreso del proyecto
 1. Hasta este commit todo ha ido más o menos bien, con algún problemilla como no poder poner los links de las páginas en horizontal o encontrar el color y tématica de la web. He aprendido a usar text-align para centrar texto, hover para que detecte si el ratón pasa por encima y la diferencia entre una clase y un estilo.
+2. He estado aprendiendo como crearme una developer branch para añadir actualizaciones sin dañar la rama main y además pedir revisión en el caso de haberlo hecho en grupo.
+3. 
