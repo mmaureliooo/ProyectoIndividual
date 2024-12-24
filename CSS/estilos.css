@@ -1,1 +1,15 @@
-dreddgffddf
+body {
+    font-family: Arial, sans-serif;
+    margin: 10;
+    padding: 10;
+    line-height: 1.6;
+    background-color:#ffffff;
+    color: #333;
+}
+
+header {
+    background: #266e68;
+    color: #55c7c7;
+    padding: 10px 0;
+    text-align: center;
+}
