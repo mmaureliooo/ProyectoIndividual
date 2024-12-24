@@ -68,19 +68,68 @@ nav ul {
     gap: 15px; 
 }
 footer {
-    position: fixed; 
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    font-size: 14px;
+    position: fixed;
     bottom: 0;
-    left: 0;
-    width: 100%; 
-    text-align: center; 
-    background-color: #333; 
-    color: white; 
-    padding: 10px 0; 
-    font-size: 14px; 
+    width: 100%;
 }
-.imagenAbout {/*ahora los hago*/
+.imagenAbout {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    margin-bottom: 20px; 
+}
 
+.imagenAbout img {
+    width: 250px; 
+    height: auto;
+    margin-right: 20px; 
+    border-radius: 5px; 
 }
+
+.imagenAbout p {
+    flex: 1; 
+    font-size: 16px;
+}
+
+
 .imagenAbout2 {
+    flex-direction: row-reverse; 
 
+}
+.imagenAbout2 img {
+    margin-right: 0; 
+    margin-left: 20px; 
+}
+
+
+.aboutH1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #f3e6bd;
+    color: #9dc9a8;
+}
+
+.imagenAbout img,
+.imagenAbout2 img {
+    width: 250px; 
+    height: auto;
+    margin-right: 20px; 
+    border-radius: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.imagenAbout img:hover,
+.imagenAbout2 img:hover {
+    transform: scale(1.2); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.imagenAbout2 img {
+    margin-right: 0;
+    margin-left: 20px;
 }
