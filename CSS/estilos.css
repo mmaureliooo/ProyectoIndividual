@@ -3,7 +3,7 @@ body {
     margin: 10;
     padding: 10;
     line-height: 1.6;
-    background-color:#ffffff;
+    
     color: #333;
 }
 /*index**************************************************/
@@ -166,4 +166,28 @@ footer {
 
 .contactsformulario button:hover {
     background-color: #82b393;
+}
+/*net**************************************************/
+.netbackground {
+    background-color: #579155;
+}
+.netH1 {
+    text-align: center;
+    color: #f0f1a9;
+    padding: 20px;
+    table-layout: auto;
+}
+table {
+    margin: 20px auto; 
+    border-collapse: collapse; 
+    width: 80%; 
+    text-align: center;
+}
+th {
+    background-color: #f3e6bd; 
+    color: #9dc9a8; 
+}
+td {
+    background-color: #f3e6bd; 
+    color: #9dc9a8; 
 }
