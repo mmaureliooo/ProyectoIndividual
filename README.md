@@ -19,4 +19,5 @@ El sitio está disponible en github
 ## Progreso del proyecto
 1. Hasta este commit todo ha ido más o menos bien, con algún problemilla como no poder poner los links de las páginas en horizontal o encontrar el color y tématica de la web. He aprendido a usar text-align para centrar texto, hover para que detecte si el ratón pasa por encima y la diferencia entre una clase y un estilo.
 2. He estado aprendiendo como crearme una developer branch para añadir actualizaciones sin dañar la rama main y además pedir revisión en el caso de haberlo hecho en grupo.
-3. 
+3. A la hora de poner la imagenes en el about, me ha costado que fuesen de un tamaño adecuado y que una de ellas estuviese a la izquierda, solucionado con dos estilos y uno en reversa y añadiendo ambos a la imagen que quería al lado contrario. Tabien he hecho que cuando se pase el raton por encima se amplien las imagenes con una transición y una sombra por estética.
+4. He creado tamién la página de contacts, en la que he metido un heding y un form que permite añadir labels e inputs, para los que están definidas los tipos(email, nombre, o incluso el mensaje si le pones que sea textarea). Finalmente he anadido un botón con hover para que se ejecute el form, pero solo recarga la página por falta de un servidor.

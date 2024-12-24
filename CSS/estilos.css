@@ -6,6 +6,7 @@ body {
     background-color:#ffffff;
     color: #333;
 }
+/*index**************************************************/
 
 header {
     background: #266e68;
@@ -77,6 +78,15 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+/*about**************************************************/
+
+.aboutH1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #f3e6bd;
+    color: #9dc9a8;
+}
 .imagenAbout {
     display: flex; 
     align-items: center; 
@@ -84,34 +94,14 @@ footer {
     margin-bottom: 20px; 
 }
 
-.imagenAbout img {
-    width: 250px; 
-    height: auto;
-    margin-right: 20px; 
-    border-radius: 5px; 
+.imagenAbout2 {
+    flex-direction: row-reverse; 
+
 }
 
 .imagenAbout p {
     flex: 1; 
     font-size: 16px;
-}
-
-
-.imagenAbout2 {
-    flex-direction: row-reverse; 
-
-}
-.imagenAbout2 img {
-    margin-right: 0; 
-    margin-left: 20px; 
-}
-
-
-.aboutH1 {
-    text-align: center;
-    padding: 20px;
-    background-color: #f3e6bd;
-    color: #9dc9a8;
 }
 
 .imagenAbout img,
@@ -129,7 +119,51 @@ footer {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
-.imagenAbout2 img {
-    margin-right: 0;
-    margin-left: 20px;
+/*contacts**************************************************/
+.contactsH1 {
+    text-align: center;
+    background-color: #f3e5b8;
+    color: #9dc9a8;
+    padding: 20px;
+}
+.contctsInfo {
+    text-align: center;
+    margin: 20px auto;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+.contactsformulario {
+    width: 60%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contactsformulario label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contactsformulario input,
+.contactsformulario textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contactsformulario button {
+    width: 100px;
+    padding: 10px;
+    background-color: #9dc9a8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: center;
+}
+
+.contactsformulario button:hover {
+    background-color: #82b393;
 }
