@@ -81,7 +81,7 @@ footer {
 
 /*about**************************************************/
 
-.aboutH1 {
+.aboutfiiH1 {
     text-align: center;
     padding: 20px;
     background-color: #f3e6bd;
@@ -120,7 +120,7 @@ footer {
 }
 
 /*contacts**************************************************/
-.contactsH1 {
+.contactsfiiH1 {
     text-align: center;
     background-color: #f3e5b8;
     color: #9dc9a8;
@@ -171,7 +171,7 @@ footer {
 .netbackground {
     background-color: #579155;
 }
-.netH1 {
+.netfiiH1 {
     text-align: center;
     color: #f0f1a9;
     padding: 20px;
@@ -193,3 +193,24 @@ td {
 }
 /*degree**************************************************/
 /*fii**************************************************/
+iframe {
+    border: 1px solid #f1ebb4;
+    border-radius: 5px;
+}
+
+
+.resumen {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.resumen article {
+    margin-bottom: 20px;
+}
+
+.resumen h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
