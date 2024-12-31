@@ -2,13 +2,14 @@ README
 # Web
 
 ## Descripción
-Este proyecto consiste en un sitio web estático diseñado como parte de un trabajo práctico. 
+Una web acerca de mi vida como gamo. 
 
 ## Estructura del proyecto
 - **CSS/**: Contiene el archivo de estilos CSS.
 - **images/**: Carpeta con imágenes usadas en el sitio web.
 - **public/**: Contiene las páginas HTML adicionales.
 - **index.html**: Página principal.
+- Contiene todo lo pedido.
 
 ## Publicación
 El sitio está disponible en github
@@ -23,3 +24,4 @@ El sitio está disponible en github
 4. He creado tamién la página de contacts, en la que he metido un heding y un form que permite añadir labels e inputs, para los que están definidas los tipos(email, nombre, o incluso el mensaje si le pones que sea textarea). Finalmente he anadido un botón con hover para que se ejecute el form, pero solo recarga la página por falta de un servidor.
 5. La página net ya está lista. He creado una tabla para enseñar la dieta habitual de un gamo. Para ello he usado table, dónde se incluyen la cabeza de la tabla y el cuerpo. Primero se definen los tipos de elementos de la tabla ( en mi caso: tipo, descripción y época del año) y luego se van metiendo los atributos de las filas que quieras en el mismo orden de inicialización de los tipos de elementos. Cada elemento de la fila se hace con un td y cada fila con un tr.
 6. me acabo de dar cuenta que los contenidos de las web que estoy haciendo no es acorde con lo pedido, voy a proceder a rehacerlas un poco.
+7. Hay un problema que no puedo resolver, una imagen no es visible en about cuando se abre online, sin embargo en local funciona.
